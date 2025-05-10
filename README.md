@@ -1,17 +1,16 @@
 <!-- ─────────────────────────  HERO  ────────────────────────── -->
 
-<!-- Optional banner (delete this whole <picture> block if you
-     don’t have assets/banner.png yet) -->
+<!-- ▸ BANNER  (delete this <picture> block if you don’t have assets/banner.png) -->
 <picture>
-  <source media="(max-width:600px)" srcset="">
+  <source media="(max-width:600px)" srcset=""><!-- hide on phones -->
   <img src="assets/banner.png" width="100%" alt="Ayesha Saleem banner">
 </picture>
 
-<!-- Typing SVG headline -->
+<!-- ▸ TYPING HEADLINE -->
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=500&color=FF8BD3&center=true&vCenter=true&width=700&height=65&lines=Hello!+I’m+Ayesha+Saleem;AI+%26+Data-Science+Enthusiast"
-    alt="Typing headline" />
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&duration=3000&pause=500&color=FF8BD3&center=true&vCenter=true&width=720&height=65&lines=Hello!+I%27m+Ayesha+Saleem;AI+%26+Data-Science+Enthusiast"
+    alt="Typing headline">
 </p>
 
 <p align="center"><em>Turning data into delightful products ✨</em></p>
@@ -55,10 +54,10 @@
 
 <p align="center">
   <a href="https://github.com/GitwitAyesha">
-    <img src="https://github-readme-stats.vercel.app/api?username=GitwitAyesha&show_icons=true&theme=github_dark&hide_border=true&border_radius=6&card_width=320"  alt="Ayesha's GitHub stats"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=GitwitAyesha&show_icons=true&theme=github_dark&hide_border=true&border_radius=6&card_width=320" alt="Ayesha's GitHub stats"/>
   </a>
   <a href="https://github.com/GitwitAyesha">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GitwitAyesha&layout=compact&theme=github_dark&hide_border=true&border_radius=6&card_width=320"  alt="Ayesha's top languages"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GitwitAyesha&layout=compact&theme=github_dark&hide_border=true&border_radius=6&card_width=320" alt="Ayesha's top languages"/>
   </a>
 </p>
 
