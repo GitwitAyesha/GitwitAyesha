@@ -3,7 +3,7 @@
 <!-- ▸ BANNER  (delete this <picture> block if you don’t have assets/banner.png) -->
 <picture>
   <source media="(max-width:600px)" srcset=""><!-- hide on phones -->
-  <img src="assets/banner.png" width="100%" alt="Ayesha Saleem banner">
+  <img src="assets/banner.png.pdf" width="100%" alt="Ayesha Saleem banner">
 </picture>
 
 <!-- ▸ TYPING HEADLINE -->
@@ -29,7 +29,6 @@
   <li>🎓 5th-semester CS student, Karachi</li>
   <li>🤖 Building with <strong>Python · TensorFlow · OpenCV · FastAPI</strong></li>
   <li>📝 Blogging & mentoring at local AI meet-ups</li>
-  <li>🎯 Seeking an <strong>AI internship</strong>, Summer&nbsp;2025</li>
 </ul>
 
 <!-- ──────────────────────  TECH TOOLKIT  ───────────────────── -->
