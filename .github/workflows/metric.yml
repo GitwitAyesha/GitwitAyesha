@@ -5,15 +5,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:          # ▼ add this
+      contents: write     #   let this job push commits
     steps:
       - name: ⚙️  Generate metrics
-        uses: lowlighter/metrics@latest      # :contentReference[oaicite:2]{index=2}
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.metric_token }}
-          user: GitwitAyesha                 # your username
-          template: classic                  # layout style
+          user: GitwitAyesha
+          template: classic
           base: header, activity, community, repositories
-          plugin_languages: yes              # top languages bar
-          plugin_calendar: yes               # contribution heat-map
-          plugin_achievements: yes           # little trophies
-          output_action: commit              # auto-commit svg
+          plugin_languages: yes
+          plugin_calendar: yes
+          plugin_achievements: yes
+          output_action: commit
