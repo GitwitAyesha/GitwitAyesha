@@ -1,0 +1,19 @@
+name: 🛠️  Generate GitHub Metrics
+on:
+  schedule: [cron: "0 6,18 * * *"]   # Runs at 06:00 & 18:00 UTC daily
+  workflow_dispatch:                # Allows manual runs
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⚙️  Generate metrics
+        uses: lowlighter/metrics@latest      # :contentReference[oaicite:2]{index=2}
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: GitwitAyesha                 # your username
+          template: classic                  # layout style
+          base: header, activity, community, repositories
+          plugin_languages: yes              # top languages bar
+          plugin_calendar: yes               # contribution heat-map
+          plugin_achievements: yes           # little trophies
+          output_action: commit              # auto-commit svg
