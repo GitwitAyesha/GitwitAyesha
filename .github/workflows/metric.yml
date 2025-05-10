@@ -9,7 +9,7 @@ jobs:
       - name: ⚙️  Generate metrics
         uses: lowlighter/metrics@latest      # :contentReference[oaicite:2]{index=2}
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.metric_token }}
           user: GitwitAyesha                 # your username
           template: classic                  # layout style
           base: header, activity, community, repositories
