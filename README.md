@@ -1,23 +1,21 @@
 <!-- ─────────────────────────  HERO  ────────────────────────── -->
 
-<!-- Optional banner: remove the whole <picture> block if you
-     don’t have assets/banner.png yet -->
+<!-- Optional banner (delete this whole <picture> block if you
+     don’t have assets/banner.png yet) -->
 <picture>
   <source media="(max-width:600px)" srcset="">
   <img src="assets/banner.png" width="100%" alt="Ayesha Saleem banner">
 </picture>
 
-<!-- Typing SVG headline (just like Anurag’s) -->
+<!-- Typing SVG headline -->
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=500&color=FF8BD3&center=true&vCenter=true&width=435&lines=Hello!+I%E2%80%99m+Ayesha+Saleem;AI+%26+Data-Science+Enthusiast"
-    alt="Typing headline">
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=500&color=FF8BD3&center=true&vCenter=true&width=700&height=65&lines=Hello!+I’m+Ayesha+Saleem;AI+%26+Data-Science+Enthusiast"
+    alt="Typing headline" />
 </p>
 
-<!-- Simple subtitle -->
 <p align="center"><em>Turning data into delightful products ✨</em></p>
 
-<!-- Short link row -->
 <p align="center">
   <a href="mailto:ayeshasaleem61203@gmail.com">Email</a> •
   <a href="https://www.linkedin.com/in/ayesha-saleem-60429627b/">LinkedIn</a> •
@@ -31,8 +29,8 @@
 <ul>
   <li>🎓 5th-semester CS student, Karachi</li>
   <li>🤖 Building with <strong>Python · TensorFlow · OpenCV · FastAPI</strong></li>
-  <li>📝 Blogging &amp; mentoring at local AI meet-ups</li>
-  <li>🎯 Looking for an <strong>AI internship</strong> Summer&nbsp;2025</li>
+  <li>📝 Blogging & mentoring at local AI meet-ups</li>
+  <li>🎯 Seeking an <strong>AI internship</strong>, Summer&nbsp;2025</li>
 </ul>
 
 <!-- ──────────────────────  TECH TOOLKIT  ───────────────────── -->
@@ -51,12 +49,17 @@
   <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
 </p>
 
-<!-- ───────────────────────  METRICS  ──────────────────────── -->
+<!-- ───────────────────────  DASHBOARD  ─────────────────────── -->
 
 <hr style="border:0;height:1px;background:linear-gradient(90deg,rgba(255,139,211,0)0%,rgba(255,139,211,0.7)50%,rgba(255,139,211,0)100%);"/>
 
 <p align="center">
-  <img src="github-metrics.svg" alt="GitHub metrics" width="85%">
+  <a href="https://github.com/GitwitAyesha">
+    <img src="https://github-readme-stats.vercel.app/api?username=GitwitAyesha&show_icons=true&theme=github_dark&hide_border=true&border_radius=6&card_width=320"  alt="Ayesha's GitHub stats"/>
+  </a>
+  <a href="https://github.com/GitwitAyesha">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GitwitAyesha&layout=compact&theme=github_dark&hide_border=true&border_radius=6&card_width=320"  alt="Ayesha's top languages"/>
+  </a>
 </p>
 
 <!-- ────────────────────  FEATURED PROJECTS  ────────────────── -->
@@ -65,14 +68,10 @@
 
 <p align="center">
   <a href="https://github.com/GitwitAyesha/sign-to-speech-converter">
-    <img
-      src="https://github-readme-stats.vercel.app/api/pin/?username=GitwitAyesha&repo=sign-to-speech-converter&theme=github_dark"
-      alt="Sign-to-Speech project card"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GitwitAyesha&repo=sign-to-speech-converter&theme=github_dark" alt="Sign-to-Speech card"/>
   </a>
   <a href="https://github.com/GitwitAyesha/Image-recognition-using-CNN">
-    <img
-      src="https://github-readme-stats.vercel.app/api/pin/?username=GitwitAyesha&repo=Image-recognition-using-CNN&theme=github_dark"
-      alt="CNN Image Recognition project card"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GitwitAyesha&repo=Image-recognition-using-CNN&theme=github_dark" alt="CNN Classifier card"/>
   </a>
 </p>
 
