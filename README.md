@@ -3,7 +3,7 @@
 <!-- ▸ BANNER  (delete this <picture> block if you don’t have assets/banner.png) -->
 <picture>
   <source media="(max-width:600px)" srcset=""><!-- hide on phones -->
-  <img src="assets/banner.png.pdf" width="100%" alt="Ayesha Saleem banner">
+  <img src="assets/banner.png" width="100%" alt="Ayesha Saleem banner">
 </picture>
 
 <!-- ▸ TYPING HEADLINE -->
