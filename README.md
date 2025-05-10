@@ -1,52 +1,81 @@
-<!-- GitHub profile README for @GitwitAyesha -->
-
 <!-- ─────────────────────────  HERO  ────────────────────────── -->
+
+<!-- Optional banner: remove the whole <picture> block if you
+     don’t have assets/banner.png yet -->
 <picture>
-  <!-- Hide banner on narrow screens -->
-  <source media="(max-width: 600px)" srcset="">
-  <img src="assets/banner.png" width="100%" alt="Ayesha Saleem – banner">
+  <source media="(max-width:600px)" srcset="">
+  <img src="assets/banner.png" width="100%" alt="Ayesha Saleem banner">
 </picture>
 
-<h1 align="center">Hi, I’m <strong>Ayesha Saleem</strong> 👋</h1>
-<p align="center">AI &amp; Data-Science Enthusiast · Karachi, Pakistan</p>
+<!-- Typing SVG headline (just like Anurag’s) -->
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=500&color=FF8BD3&center=true&vCenter=true&width=435&lines=Hello!+I%E2%80%99m+Ayesha+Saleem;AI+%26+Data-Science+Enthusiast"
+    alt="Typing headline">
+</p>
 
-<!-- ───────────────────────  CONTACT/SHORT LINKS  ───────────── -->
+<!-- Simple subtitle -->
+<p align="center"><em>Turning data into delightful products ✨</em></p>
+
+<!-- Short link row -->
 <p align="center">
   <a href="mailto:ayeshasaleem61203@gmail.com">Email</a> •
   <a href="https://www.linkedin.com/in/ayesha-saleem-60429627b/">LinkedIn</a> •
-  <a href="https://github.com/GitwitAyesha">GitHub</a>
+  <a href="https://gitwitayesha.github.io">Portfolio</a>
 </p>
 
-<!-- ─────────────────────────  TOOLKIT  ─────────────────────── -->
-<h3 align="center">🛠 Tech Toolkit</h3>
+<!-- ───────────────────────  ABOUT ME  ──────────────────────── -->
+
+<h3 align="center">📌 About&nbsp;Me</h3>
+
+<ul>
+  <li>🎓 5th-semester CS student, Karachi</li>
+  <li>🤖 Building with <strong>Python · TensorFlow · OpenCV · FastAPI</strong></li>
+  <li>📝 Blogging &amp; mentoring at local AI meet-ups</li>
+  <li>🎯 Looking for an <strong>AI internship</strong> Summer&nbsp;2025</li>
+</ul>
+
+<!-- ──────────────────────  TECH TOOLKIT  ───────────────────── -->
+
+<h3 align="center">⚙️ Tech&nbsp;Toolkit</h3>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <br><!-- breakpoint for mobile -->
+  <!-- Row 1 -->
+  <img src="https://img.shields.io/badge/python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/tensorflow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/pytorch-2.x-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <br>
+  <!-- Row 2 -->
   <img src="https://img.shields.io/badge/fastapi-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/gradio-17A2B8?style=for-the-badge&logo=slack&logoColor=white"/>
+  <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
 </p>
 
-<!-- ─────────────────────────  METRICS  ─────────────────────── -->
+<!-- ───────────────────────  METRICS  ──────────────────────── -->
+
+<hr style="border:0;height:1px;background:linear-gradient(90deg,rgba(255,139,211,0)0%,rgba(255,139,211,0.7)50%,rgba(255,139,211,0)100%);"/>
+
 <p align="center">
-  <img src="github-metrics.svg" alt="GitHub metrics" width="90%">
+  <img src="github-metrics.svg" alt="GitHub metrics" width="85%">
 </p>
 
-<hr style="border:0;height:1px;background:linear-gradient(90deg,rgba(95,10,255,0)0%,rgba(95,10,255,0.75)50%,rgba(95,10,255,0)100%);"/>
+<!-- ────────────────────  FEATURED PROJECTS  ────────────────── -->
 
-<!-- ─────────────────────────  PROJECTS  ────────────────────── -->
-<h3 align="center">🚀 Featured Projects</h3>
+<h3 align="center">🚀 Featured&nbsp;Projects</h3>
+
 <p align="center">
   <a href="https://github.com/GitwitAyesha/sign-to-speech-converter">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GitwitAyesha&repo=sign-to-speech-converter&theme=github_dark" />
+    <img
+      src="https://github-readme-stats.vercel.app/api/pin/?username=GitwitAyesha&repo=sign-to-speech-converter&theme=github_dark"
+      alt="Sign-to-Speech project card"/>
   </a>
   <a href="https://github.com/GitwitAyesha/Image-recognition-using-CNN">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GitwitAyesha&repo=Image-recognition-using-CNN&theme=github_dark" />
+    <img
+      src="https://github-readme-stats.vercel.app/api/pin/?username=GitwitAyesha&repo=Image-recognition-using-CNN&theme=github_dark"
+      alt="CNN Image Recognition project card"/>
   </a>
 </p>
 
 <!-- ─────────────────────────  FOOTER  ──────────────────────── -->
-<p align="center">
-  <sub>“Value, transparency, communication.” — My guiding principles for every commit.</sub>
-</p>
+
+<p align="center"><sub>“Value · Transparency · Communication” — guiding every commit.</sub></p>
