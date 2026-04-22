@@ -26,7 +26,7 @@
 <h3 align="center">📌 About&nbsp;Me</h3>
 
 <ul>
-  <li>🎓 5th-semester CS student, Karachi</li>
+  <li>🎓 7th-semester CS student, Karachi</li>
   <li>🤖 Building with <strong>Python · TensorFlow · OpenCV · FastAPI</strong></li>
   <li>📝 Blogging & mentoring at local AI meet-ups</li>
 </ul>
